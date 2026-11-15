@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>U Shall Receive — Sample PL/PD $300 or Full Coverage $600 / 6 months (Demo)</title>
+  <meta name="description" content="Demo only. A prototype of simple online car insurance with sample six-month rates: $300 for PL/PD and $600 for Full Coverage. Not a real insurance offer." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%233A1C24'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-family='Georgia,serif' font-size='18' font-weight='600' fill='%23E8D5A2'%3EU%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="site-chrome">
+  <div class="demo-banner" role="status">
+    <div class="demo-banner__inner">
+      <span class="demo-banner__badge">Demo</span>
+      <p>This is a prototype — <strong>not a real insurance offer</strong>. No policy is sold, no payment is taken, and no licensed carrier is involved. Real U.S. auto insurance pricing varies by driver and state and must be issued by a licensed insurer.</p>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container header-bar">
+      <a href="#/" class="logo" data-nav="landing" aria-label="U Shall Receive home">
+        <span class="logo-mark" aria-hidden="true">U</span>
+        <span class="logo-text">Shall <em>Receive</em></span>
+      </a>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <a href="#benefits" data-nav="landing" data-scroll="benefits">Benefits</a>
+        <a href="#how-it-works" data-nav="landing" data-scroll="how-it-works">How it works</a>
+        <a href="#faq" data-nav="landing" data-scroll="faq">FAQ</a>
+        <button type="button" class="btn btn-primary btn-sm" data-nav="quote">Get a sample quote</button>
+      </nav>
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  </div>
+
+  <main id="main">
+    <!-- LANDING -->
+    <section id="view-landing" class="view is-active" data-view="landing">
+      <div class="hero">
+        <div class="container hero-stack">
+          <div class="hero-copy">
+            <p class="eyebrow">Ask, and U shall receive.</p>
+            <h1>Car insurance from <span class="price-highlight">$300</span> for 6 months</h1>
+            <p class="hero-lead">Two simple sample plans for a six-month auto policy: PL/PD at $300, or Full Coverage at $600. Get an illustrative quote in a few minutes — no account required, and nothing is actually sold.</p>
+            <div class="hero-actions">
+              <button type="button" class="btn btn-primary btn-lg" data-nav="quote">Get a sample quote</button>
+              <a href="#how-it-works" class="btn btn-ghost btn-lg" data-scroll="how-it-works">See how it works</a>
+            </div>
+            <p class="fine-print">Sample baseline pricing only. Real rates vary by driver, vehicle, and state, and require a licensed carrier.</p>
+          </div>
+          <div class="plan-grid" aria-label="Sample plans">
+            <article class="plan-card plan-card--light">
+              <div class="plan-card__top">
+                <span class="pill pill-sample">Sample plan</span>
+                <h2>PL/PD</h2>
+                <p class="plan-price"><span class="currency">$</span>300<span class="term">/ 6 months</span></p>
+                <p class="plan-sub">About $50 per month, billed as a single six-month sample premium.</p>
+              </div>
+              <ul class="plan-features">
+                <li>Liability-only: property liability / property damage</li>
+                <li>State-minimum sample limits</li>
+                <li>No collision or comprehensive</li>
+                <li>Illustrative price — not a bindable offer</li>
+              </ul>
+              <button type="button" class="btn btn-primary btn-block" data-nav="quote" data-coverage="minimum">Start with PL/PD</button>
+            </article>
+            <article class="plan-card plan-card--full">
+              <div class="plan-card__top">
+                <span class="pill pill-sample">Sample plan</span>
+                <h2>Full Coverage</h2>
+                <p class="plan-price"><span class="currency">$</span>600<span class="term">/ 6 months</span></p>
+                <p class="plan-sub">About $100 per month, billed as a single six-month sample premium.</p>
+              </div>
+              <ul class="plan-features">
+                <li>Higher liability limits (100/300/100 sample)</li>
+                <li>Collision &amp; comprehensive, $500 deductible</li>
+                <li>Uninsured / underinsured motorist (sample)</li>
+                <li>Illustrative price — not a bindable offer</li>
+              </ul>
+              <button type="button" class="btn btn-secondary btn-block" data-nav="quote" data-coverage="full">Start with Full Coverage</button>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <section class="section" id="benefits">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Why this idea</p>
+            <h2>Straightforward cover, plainly explained</h2>
+            <p>This demo explores what a simple online auto policy could feel like — transparent steps, a clear price, and no surprises in the flow.</p>
+          </div>
+          <div class="card-grid">
+            <article class="feature-card">
+              <div class="icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v18M5 8h14M7 8c0 7 5 10 5 13 0-3 5-6 5-13" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Simple sample price</h3>
+              <p>Two clear sample baselines — $300 for PL/PD and $600 for Full Coverage — with every risk adjustment labeled so you can see what changed the number.</p>
+            </article>
+            <article class="feature-card">
+              <div class="icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Guided quote in minutes</h3>
+              <p>Driver, vehicle, history, and coverage — four short steps. Your answers stay in this browser only, via localStorage.</p>
+            </article>
+            <article class="feature-card">
+              <div class="icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 4v6c0 5-3.5 7.5-8 9-4.5-1.5-8-4-8-9V7l8-4z" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <h3>Coverage you can compare</h3>
+              <p>Compare PL/PD (liability-only, $300) and Full Coverage ($600) and immediately see an illustrative difference in premium.</p>
+            </article>
+            <article class="feature-card">
+              <div class="icon-wrap" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke-linecap="round"/></svg>
+              </div>
+              <h3>Mock policy &amp; ID card</h3>
+              <p>Walk all the way through a simulated checkout and print or download a sample insurance ID card — clearly marked as a demo.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="how-it-works">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">The flow</p>
+            <h2>How it works</h2>
+            <p>Four steps to a sample quote, then a simulated purchase and a mock ID card. Nothing is underwritten or billed.</p>
+          </div>
+          <ol class="steps">
+            <li>
+              <span class="step-num">1</span>
+              <h3>Tell us about the driver</h3>
+              <p>Name, age, and ZIP / state — enough to sketch a location-aware sample rate.</p>
+            </li>
+            <li>
+              <span class="step-num">2</span>
+              <h3>Add the vehicle</h3>
+              <p>Year, make, and model. Newer cars can nudge a Full Coverage sample premium up slightly.</p>
+            </li>
+            <li>
+              <span class="step-num">3</span>
+              <h3>Share driving history</h3>
+              <p>Accidents and tickets in the last three years apply clearly labeled illustrative surcharges.</p>
+            </li>
+            <li>
+              <span class="step-num">4</span>
+              <h3>Pick coverage &amp; review</h3>
+              <p>Choose PL/PD ($300) or Full Coverage ($600), then review a sample quote, mock checkout, and demo ID card.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container narrow">
+          <div class="section-head">
+            <p class="eyebrow">Questions</p>
+            <h2>FAQ</h2>
+          </div>
+          <div class="faq" id="faq-list">
+            <details open>
+              <summary>Is this real car insurance?</summary>
+              <p>No. This is a product prototype only. U Shall Receive is not a licensed insurer or agency, no coverage is bound, and no payment is processed. A real U.S. auto policy must be issued by a licensed insurance carrier and sold by a licensed producer where required.</p>
+            </details>
+            <details>
+              <summary>Can everyone actually get the $300 or $600 six-month prices?</summary>
+              <p>No, and this demo does not promise that. State law generally requires rates to reflect risk — age, driving record, vehicle, location, and coverage all matter. The $300 PL/PD and $600 Full Coverage figures are <em>sample baselines</em> for each plan. The quote calculator then applies a few obvious risk adjustments so you can see how a real rating engine might change a premium; those adjustments are illustrative, not actuarial.</p>
+            </details>
+            <details>
+              <summary>Why do you ask for a ZIP code and driving history?</summary>
+              <p>To make the sample quote feel like a real flow. In production, location and history would feed a licensed carrier’s rating engine and state-required underwriting rules. Here they only change a mock price with labeled add-ons, and the answers never leave your browser.</p>
+            </details>
+            <details>
+              <summary>Will you charge my card?</summary>
+              <p>No. Checkout is simulated. Card fields are disabled placeholders, and the only action is a “Simulate payment” button that does not transmit or store payment data.</p>
+            </details>
+            <details>
+              <summary>Where is my information stored?</summary>
+              <p>Only in this browser’s localStorage, so you can refresh or come back during the demo. Clear site data to remove it. Nothing is sent to a server.</p>
+            </details>
+            <details>
+              <summary>What would it take to offer this for real?</summary>
+              <p>State insurance licenses (or a partnership with a licensed MGA / carrier), an approved rating and underwriting engine, surplus lines or admitted paper depending on the model, compliant payments and escrow, and consumer notices required by each Department of Insurance. This demo is a design exploration of that future product, not a path around those requirements.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- QUOTE WIZARD -->
+    <section id="view-quote" class="view" data-view="quote" hidden>
+      <div class="wizard-wrap">
+        <div class="container narrow">
+          <div class="wizard-head">
+            <p class="eyebrow">Sample quote</p>
+            <h1>Get an illustrative price</h1>
+            <p class="lede">Answers stay in your browser. The result is a demo number, not a bindable offer.</p>
+          </div>
+
+          <ol class="progress" id="quote-progress" aria-label="Quote steps">
+            <li class="is-current" data-step-indicator="1"><span>1</span> Driver</li>
+            <li data-step-indicator="2"><span>2</span> Vehicle</li>
+            <li data-step-indicator="3"><span>3</span> History</li>
+            <li data-step-indicator="4"><span>4</span> Coverage</li>
+          </ol>
+
+          <form id="quote-form" class="panel" novalidate>
+            <!-- Step 1 -->
+            <fieldset class="step-panel is-active" data-step="1" aria-labelledby="step-1-title">
+              <legend id="step-1-title">Driver information</legend>
+              <div class="field-row">
+                <div class="field">
+                  <label for="firstName">First name</label>
+                  <input id="firstName" name="firstName" type="text" autocomplete="given-name" required maxlength="60" placeholder="Alex" />
+                  <p class="field-error" data-error-for="firstName" hidden></p>
+                </div>
+                <div class="field">
+                  <label for="lastName">Last name</label>
+                  <input id="lastName" name="lastName" type="text" autocomplete="family-name" required maxlength="60" placeholder="Rivera" />
+                  <p class="field-error" data-error-for="lastName" hidden></p>
+                </div>
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="age">Age</label>
+                  <input id="age" name="age" type="number" inputmode="numeric" min="16" max="99" required placeholder="32" />
+                  <p class="field-error" data-error-for="age" hidden></p>
+                  <p class="hint">Licensed drivers 16–99. Younger drivers see a labeled sample surcharge.</p>
+                </div>
+                <div class="field">
+                  <label for="zip">ZIP code</label>
+                  <input id="zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" required pattern="[0-9]{5}" maxlength="5" placeholder="48201" />
+                  <p class="field-error" data-error-for="zip" hidden></p>
+                </div>
+              </div>
+              <div class="field">
+                <label for="state">State</label>
+                <select id="state" name="state" required>
+                  <option value="">Select a state</option>
+                </select>
+                <p class="field-error" data-error-for="state" hidden></p>
+                <p class="hint">A few states apply a small illustrative territory factor in this demo.</p>
+              </div>
+            </fieldset>
+
+            <!-- Step 2 -->
+            <fieldset class="step-panel" data-step="2" hidden aria-labelledby="step-2-title">
+              <legend id="step-2-title">Vehicle</legend>
+              <div class="field">
+                <label for="year">Year</label>
+                <select id="year" name="year" required></select>
+                <p class="field-error" data-error-for="year" hidden></p>
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="make">Make</label>
+                  <select id="make" name="make" required>
+                    <option value="">Select make</option>
+                  </select>
+                  <p class="field-error" data-error-for="make" hidden></p>
+                </div>
+                <div class="field">
+                  <label for="model">Model</label>
+                  <select id="model" name="model" required disabled>
+                    <option value="">Select make first</option>
+                  </select>
+                  <p class="field-error" data-error-for="model" hidden></p>
+                </div>
+              </div>
+              <p class="hint">Model year 2023 or newer adds a modest illustrative amount when you choose Full Coverage (newer cars often cost more to repair or replace).</p>
+            </fieldset>
+
+            <!-- Step 3 -->
+            <fieldset class="step-panel" data-step="3" hidden aria-labelledby="step-3-title">
+              <legend id="step-3-title">Driving history</legend>
+              <p class="lede tight">Count incidents in the last three years. These only change the sample price — they are not reported to anyone.</p>
+              <div class="field-row">
+                <div class="field">
+                  <label for="accidents">At-fault accidents</label>
+                  <select id="accidents" name="accidents" required>
+                    <option value="0">None</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3 or more</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="tickets">Moving violations / tickets</label>
+                  <select id="tickets" name="tickets" required>
+                    <option value="0">None</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3 or more</option>
+                  </select>
+                </div>
+              </div>
+              <p class="hint">This demo adds $80 per at-fault accident and $35 per ticket to the sample six-month premium, each labeled on the quote.</p>
+            </fieldset>
+
+            <!-- Step 4 -->
+            <fieldset class="step-panel" data-step="4" hidden aria-labelledby="step-4-title">
+              <legend id="step-4-title">Coverage choice</legend>
+              <p class="lede tight">Pick a sample plan. Limits below are illustrative stand-ins, not a state’s actual required minimums.</p>
+              <div class="coverage-options" role="radiogroup" aria-labelledby="step-4-title">
+                <label class="coverage-card is-selected">
+                  <input type="radio" name="coverage" value="minimum" checked />
+                  <span class="coverage-card__body">
+                    <span class="coverage-card__label">PL/PD – $300 / 6 mo</span>
+                    <span class="coverage-card__price">Sample baseline</span>
+                    <span class="coverage-card__desc">Property liability / property damage — liability-only at a simplified state-minimum sample. No collision or comprehensive.</span>
+                    <ul>
+                      <li>PL / PD liability (sample minimum)</li>
+                      <li>Uninsured motorist not included</li>
+                      <li>No collision or comprehensive</li>
+                    </ul>
+                  </span>
+                </label>
+                <label class="coverage-card">
+                  <input type="radio" name="coverage" value="full" />
+                  <span class="coverage-card__body">
+                    <span class="coverage-card__label">Full Coverage – $600 / 6 mo</span>
+                    <span class="coverage-card__price">Sample baseline</span>
+                    <span class="coverage-card__desc">Higher liability plus sample collision and comprehensive, with a $500 deductible shown on the quote.</span>
+                    <ul>
+                      <li>Higher liability limits (100/300/100 sample)</li>
+                      <li>Collision &amp; comprehensive, $500 deductible</li>
+                      <li>Uninsured / underinsured motorist (sample)</li>
+                    </ul>
+                  </span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="wizard-actions">
+              <button type="button" class="btn btn-ghost" id="btn-back" hidden>Back</button>
+              <button type="button" class="btn btn-primary" id="btn-next">Continue</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUOTE RESULT -->
+    <section id="view-result" class="view" data-view="result" hidden>
+      <div class="wizard-wrap">
+        <div class="container narrow">
+          <div class="wizard-head">
+            <p class="eyebrow">Your sample quote</p>
+            <h1>Illustrative six-month premium</h1>
+            <p class="lede">This number is a demo calculation, not a real offer to bind coverage. Pricing in a live product would come from a licensed carrier’s approved rates.</p>
+          </div>
+
+          <div class="panel quote-result">
+            <div class="quote-hero">
+              <p class="quote-kicker">Sample premium · 6 months</p>
+              <p class="quote-total" id="quote-total">$300</p>
+              <p class="quote-monthly" id="quote-monthly">About $50 / month if spread evenly</p>
+              <span class="pill pill-sample">Illustrative only</span>
+            </div>
+
+            <div class="quote-meta" id="quote-summary-line"></div>
+
+            <h2 class="subhead">How this sample price was built</h2>
+            <table class="breakdown" id="quote-breakdown">
+              <caption class="sr-only">Illustrative premium adjustments</caption>
+              <tbody></tbody>
+              <tfoot></tfoot>
+            </table>
+            <p class="fine-print">Adjustments are simplified examples for this prototype (age, territory, history, and coverage). They are not actuarial rates and do not reflect any state’s filed insurance rates.</p>
+
+            <h2 class="subhead">Coverage summary</h2>
+            <ul class="coverage-summary" id="coverage-summary"></ul>
+
+            <div class="wizard-actions result-actions">
+              <button type="button" class="btn btn-ghost" data-nav="quote" data-quote-edit>Edit answers</button>
+              <button type="button" class="btn btn-primary btn-lg" data-nav="checkout">Buy (simulated)</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHECKOUT -->
+    <section id="view-checkout" class="view" data-view="checkout" hidden>
+      <div class="wizard-wrap">
+        <div class="container narrow">
+          <div class="wizard-head">
+            <p class="eyebrow">Mock checkout</p>
+            <h1>Simulate a purchase</h1>
+            <p class="lede">No payment is processed. Card fields are disabled placeholders and never leave this page.</p>
+          </div>
+
+          <div class="checkout-grid">
+            <div class="panel">
+              <h2 class="subhead tight">Payment (disabled)</h2>
+              <p class="hint" style="margin-top:0">These fields are visual only and cannot be edited or submitted.</p>
+              <div class="field">
+                <label for="cardName">Name on card</label>
+                <input id="cardName" type="text" value="Demo cardholder" disabled autocomplete="off" />
+              </div>
+              <div class="field">
+                <label for="cardNumber">Card number</label>
+                <input id="cardNumber" type="text" value="•••• •••• •••• 4242" disabled autocomplete="off" />
+              </div>
+              <div class="field-row">
+                <div class="field">
+                  <label for="cardExp">Expiration</label>
+                  <input id="cardExp" type="text" value="12 / 28" disabled autocomplete="off" />
+                </div>
+                <div class="field">
+                  <label for="cardCvc">CVC</label>
+                  <input id="cardCvc" type="text" value="•••" disabled autocomplete="off" />
+                </div>
+              </div>
+              <button type="button" class="btn btn-primary btn-block btn-lg" id="btn-simulate-pay">Simulate payment</button>
+              <p class="fine-print center">By continuing you acknowledge this is a demonstration. No charge will be made and no insurance will be purchased or bound.</p>
+            </div>
+            <aside class="panel order-summary" id="order-summary">
+              <h2 class="subhead tight">Order summary</h2>
+            </aside>
+          </div>
+          <p class="back-row"><button type="button" class="btn btn-ghost" data-nav="result">Back to quote</button></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONFIRMATION -->
+    <section id="view-confirm" class="view" data-view="confirm" hidden>
+      <div class="wizard-wrap">
+        <div class="container narrow">
+          <div class="wizard-head">
+            <p class="eyebrow">Confirmation</p>
+            <h1>Sample policy issued</h1>
+            <p class="lede">This is a mock confirmation for the demo. It does not provide insurance, proof of insurance, or any contractual coverage.</p>
+          </div>
+
+          <div class="panel confirm-panel">
+            <div class="confirm-status">
+              <span class="check-mark" aria-hidden="true">✓</span>
+              <div>
+                <p class="confirm-kicker">Simulated purchase complete</p>
+                <p class="policy-number">Policy <strong id="policy-number">USR-2026-000000</strong></p>
+                <p class="fine-print" style="margin:0.35rem 0 0">Effective dates and documents below are fictional and for demonstration only.</p>
+              </div>
+            </div>
+
+            <div class="id-card-actions">
+              <button type="button" class="btn btn-primary" id="btn-print-card">Print ID card</button>
+              <button type="button" class="btn btn-secondary" id="btn-download-card">Download ID card (PNG)</button>
+            </div>
+
+            <div class="id-card-wrap" id="id-card-print">
+              <article class="id-card" id="id-card" aria-label="Mock insurance identification card">
+                <div class="id-card__banner">DEMO — NOT VALID PROOF OF INSURANCE</div>
+                <div class="id-card__header">
+                  <div class="id-card__brand">
+                    <span class="logo-text light">U Shall <em>Receive</em></span>
+                    <span class="id-card__doc">Insurance Identification Card</span>
+                  </div>
+                  <span class="id-card__badge">SAMPLE</span>
+                </div>
+                <dl class="id-card__grid">
+                  <div><dt>Insured</dt><dd id="card-insured">—</dd></div>
+                  <div><dt>Policy number</dt><dd id="card-policy">—</dd></div>
+                  <div><dt>Effective</dt><dd id="card-effective">—</dd></div>
+                  <div><dt>Expires</dt><dd id="card-expires">—</dd></div>
+                  <div class="span-2"><dt>Vehicle</dt><dd id="card-vehicle">—</dd></div>
+                  <div class="span-2"><dt>Coverage</dt><dd id="card-coverage">—</dd></div>
+                  <div class="span-2"><dt>NAIC / company</dt><dd>U Shall Receive Demo Mutual (fictional) · NAIC 00000</dd></div>
+                </dl>
+                <p class="id-card__disclaimer">This card is a design mockup generated by a product prototype. It is not issued by an insurer, is not accepted as financial responsibility, and must not be presented to law enforcement or a DMV as proof of insurance.</p>
+              </article>
+            </div>
+          </div>
+
+          <p class="back-row">
+            <button type="button" class="btn btn-ghost" data-nav="landing" id="btn-start-over">Back to home</button>
+            <button type="button" class="btn btn-ghost" id="btn-reset">Start a new sample quote</button>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#/" class="logo footer-logo" data-nav="landing" aria-label="U Shall Receive home">
+          <span class="logo-mark logo-mark--on-dark" aria-hidden="true">U</span>
+          <span class="logo-text">Shall <em>Receive</em></span>
+        </a>
+        <p>A U.S. car insurance product prototype. Not a licensed insurer, agency, or producer.</p>
+      </div>
+      <div>
+        <p class="footer-label">Important</p>
+        <p>Real pricing varies by driver and state. Policies must be issued by a licensed carrier and, where required, sold by a licensed agent. This site does not solicit, bind, or sell insurance.</p>
+      </div>
+      <div>
+        <p class="footer-label">Demo notice</p>
+        <p>No real sales, payments, or coverage. Sample PL/PD $300 and Full Coverage $600 six-month baselines are for illustration only.</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 U Shall Receive Demo. Prototype for product exploration.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
