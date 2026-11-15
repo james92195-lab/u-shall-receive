@@ -7,7 +7,9 @@ A self-contained, front-end-only prototype branded **U Shall Receive** (“Ask, 
 ## Live demo
 
 - Repository: [https://github.com/james92195-lab/u-shall-receive](https://github.com/james92195-lab/u-shall-receive)
-- GitHub Pages: [https://james92195-lab.github.io/u-shall-receive/](https://james92195-lab.github.io/u-shall-receive/)
+- Intended GitHub Pages URL: [https://james92195-lab.github.io/u-shall-receive/](https://james92195-lab.github.io/u-shall-receive/)
+
+The site files are on `main`. GitHub Pages still needs to be turned on once in the repository settings (Deploy from a branch: `main` / root, or Source: GitHub Actions, then re-run the Deploy GitHub Pages workflow).
 
 This is a static demo only. It is not a real insurance offer, and no real payment is processed.
 
